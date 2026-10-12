@@ -1,4 +1,4 @@
-"""SQLite database layer for the Country Data Pipeline."""
+
 
 import sqlite3
 from pathlib import Path
