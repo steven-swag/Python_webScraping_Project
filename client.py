@@ -1,9 +1,9 @@
-"""Fetch countries from the API, export CSV, and save a scatter plot."""
+
 
 from pathlib import Path
 
 import matplotlib
-matplotlib.use("Agg")  # Allows saving a chart without opening a GUI window.
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
@@ -25,7 +25,7 @@ def main():
         return
 
     dataframe = pd.DataFrame(records)
-    # Keep columns in the order requested by the project.
+    
     dataframe = dataframe[
         ["country_name", "capital", "population", "area"]
     ]
