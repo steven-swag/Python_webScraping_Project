@@ -1,4 +1,4 @@
-"""FastAPI REST service for the countries database."""
+
 
 from fastapi import FastAPI, HTTPException, Response, status
 from pydantic import BaseModel, Field
