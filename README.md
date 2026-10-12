@@ -1,11 +1,11 @@
-# Country Data Pipeline
+ Country Data Pipeline
 
-## About the Project
+ About the Project
 In this project, I scraped data for the first 20 countries from Scrape This Site using Python. I stored the data in an SQLite database and created a REST API to access and manage the country details.
 
 I also created a client script to fetch data from the API, display it using Pandas, export it to a CSV file, and generate a scatter plot.
 
-## Technologies Used
+ Technologies Used
 - Python
 - Requests and BeautifulSoup
 - SQLite
@@ -13,7 +13,7 @@ I also created a client script to fetch data from the API, display it using Pand
 - Pandas
 - Matplotlib
 
-## How to Run
+ How to Run
 
 Install the required packages:
 
