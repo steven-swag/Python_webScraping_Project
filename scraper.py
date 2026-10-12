@@ -1,4 +1,4 @@
-"""Scrape the first 20 countries and store them in countries.db."""
+
 
 import re
 import requests
